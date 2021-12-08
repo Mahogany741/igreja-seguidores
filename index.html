@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Igreja Seguidores</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
@@ -16,6 +16,56 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
+<style>
+    /* Initialize Swiper Css */
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        max-height: 70vh;
+        object-fit: cover;
+    }
+
+    .swiper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        color: #fff;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #fff !important;
+    }
+</style>
 
 <body class="d-flex flex-column h-100">
     <main class="flex-shrink-0">
@@ -58,7 +108,7 @@
                                 <li><a class="dropdown-item" href="#!">Pedidos de Oração</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Contato.html">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -95,7 +145,7 @@
                                 mobile-first sites with Bootstrap, the world’s most popular front-end open source
                                 toolkit!</p>
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                <a class="btn btn-outline-dark btn-lg px-4" href="about.html">Saiba Mais</a>
+                                <a class="btn btn-outline-dark btn-lg px-4" href="sobre.html">Saiba Mais</a>
                             </div>
                         </div>
                     </div>
@@ -113,34 +163,42 @@
                     </div>
                     <div class="col-lg-12">
                         <div class="row gx-5 row-cols-1 row-cols-md-2">
-                            <a href="" class="col nav-link text-dark mb-5 h-100">
-                                <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i
-                                        class="bi bi-book-half"></i></div>
-                                <h5 class="h5">O Poder da Oração</h5>
+                            <a href="#!" class="col nav-link text-dark mb-5 h-100">
+                                <div class="d-flex align-items-end">
+                                    <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i
+                                            class="bi bi-book-half"></i>
+                                    </div>
+                                    <h5 class="mb-3 mx-3">O Poder da Oração</h5>
+                                </div>
+                                <p class="mb-0 text-muted">Paragraph of text beneath the heading to explain the heading.
+                                    Here is just a bit more text.</p>
+                            </a>
+                            <a href="#!" class="col nav-link text-dark mb-5 h-100">
+                                <div class="d-flex align-items-end">
+                                    <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i
+                                            class="bi bi-book-half"></i></div>
+                                    <h5 class="mb-3 mx-3">Provérbios 4</h5>
+                                </div>
                                 <p class="mb-0 text-muted">Paragraph of text beneath the heading to explain the heading.
                                     Here is
                                     just a bit more text.</p>
                             </a>
-                            <a href="" class="col nav-link text-dark mb-5 h-100">
-                                <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i
-                                        class="bi bi-book-half"></i></div>
-                                <h5 class="h5">Provérbios 4</h5>
+                            <a href="#!" class="col nav-link text-dark mb-5 mb-md-0 h-100">
+                                <div class="d-flex align-items-end">
+                                    <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i
+                                            class="bi bi-book-half"></i></div>
+                                    <h5 class="mb-3 mx-3">Em Tudo dai Graça</h5>
+                                </div>
                                 <p class="mb-0 text-muted">Paragraph of text beneath the heading to explain the heading.
                                     Here is
                                     just a bit more text.</p>
                             </a>
-                            <a href="" class="col nav-link text-dark mb-5 mb-md-0 h-100">
-                                <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i
-                                        class="bi bi-book-half"></i></div>
-                                <h5 class="h5">Em Tudo dai Graça</h5>
-                                <p class="mb-0 text-muted">Paragraph of text beneath the heading to explain the heading.
-                                    Here is
-                                    just a bit more text.</p>
-                            </a>
-                            <a href="" class="col nav-link text-dark h-100">
-                                <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i
-                                        class="bi bi-book-half"></i></div>
-                                <h5 class="h5">O que Jesus Faria?</h5>
+                            <a href="#!" class="col nav-link text-dark h-100">
+                                <div class="d-flex align-items-end">
+                                    <div class="feature bg-dark bg-gradient text-white rounded-3 mb-3"><i
+                                            class="bi bi-book-half"></i></div>
+                                    <h5 class="mb-3 mx-3">O que Jesus Faria?</h5>
+                                </div>
                                 <p class="mb-0 text-muted">Paragraph of text beneath the heading to explain the heading.
                                     Here is
                                     just a bit more text.</p>
@@ -264,7 +322,7 @@
                                 <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign
                                     up</button>
                             </div>
-                            <div class="small text-white-50">We care about privacy, and will never share your data.
+                            <div class="small text-white-50">We care about Privacidade, and will never share your data.
                             </div>
                         </div>
                     </div>
@@ -329,33 +387,33 @@
             <div class="container px-5 my-5">
                 <h2 class="fw-bolder mb-5">Leituras</h2>
                 <div class="row gx-5">
-                        <a href="" class="media mb-4 text-dark">
-                            <img class="mr-3 rounded" src="/assets/image/banner1.jpg" alt="Generic placeholder image">
-                            <div class="media-body">
-                                <h5 class="mt-0 mb-1">List-based media object</h5>
-                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                                condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            </div>
-                        </a>
-                        <a href="" class="media mb-4 text-dark">
-                            <img class="mr-3 rounded" src="/assets/image/banner1.jpg" alt="Generic placeholder image">
-                            <div class="media-body">
-                                <h5 class="mt-0 mb-1">List-based media object</h5>
-                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                                condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            </div>
-                        </a>
-                        <a href="" class="media mb-4 text-dark">
-                            <img class="mr-3 rounded" src="/assets/image/banner1.jpg" alt="Generic placeholder image">
-                            <div class="media-body">
-                                <h5 class="mt-0 mb-1">List-based media object</h5>
-                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
-                                condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            </div>
-                        </a>
+                    <a href="" class="media mb-4 text-dark">
+                        <img class="mr-3 rounded" src="/assets/image/banner1.jpg" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">List-based media object</h5>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                            sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                            condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                    </a>
+                    <a href="" class="media mb-4 text-dark">
+                        <img class="mr-3 rounded" src="/assets/image/banner1.jpg" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">List-based media object</h5>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                            sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                            condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                    </a>
+                    <a href="" class="media mb-4 text-dark">
+                        <img class="mr-3 rounded" src="/assets/image/banner1.jpg" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">List-based media object</h5>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                            sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                            condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -365,14 +423,14 @@
         <div class="container px-5">
             <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                 <div class="col-auto">
-                    <div class="small m-0 text-white">Copyright &copy; Your Website 2021</div>
+                    <div class="small m-0 text-white">Copyright &copy; Igreja Seguidores 2021</div>
                 </div>
                 <div class="col-auto">
-                    <a class="link-light small" href="#!">Privacy</a>
+                    <a class="link-light small" href="#!">Privacidade</a>
                     <span class="text-white mx-1">&middot;</span>
-                    <a class="link-light small" href="#!">Terms</a>
+                    <a class="link-light small" href="#!">Termos</a>
                     <span class="text-white mx-1">&middot;</span>
-                    <a class="link-light small" href="#!">Contact</a>
+                    <a class="link-light small" href="#!">Contato</a>
                 </div>
             </div>
         </div>
@@ -383,6 +441,22 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script>
+        // Initialize Swiper 
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
