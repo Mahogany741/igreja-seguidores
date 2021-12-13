@@ -17,14 +17,16 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <style>
-    main{
+    main {
         position: relative;
     }
+
     .swiper {
         width: 100%;
         height: 100%;
     }
-    .swiper-slide{
+
+    .swiper-slide {
         height: auto;
     }
 </style>
@@ -69,7 +71,8 @@
                                 <li><a class="dropdown-item" href="#!">Pedidos de Oração</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="onde-nos-encontrar.html">Onde nos Encontrar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="onde-nos-encontrar.html">Onde nos Encontrar</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -172,7 +175,9 @@
                                 <a class="text-decoration-none link-dark stretched-link" href="palavra-post.html">
                                     <div class="h5 card-title mb-3">O que a Bíblia diz?</div>
                                 </a>
-                                <p class="card-text mb-0">A Bíblia é uma coleção ou compilação de livros sagrados, contendo as histórias, doutrinas, códigos e tradições que guiam os cristãos, com base na tradição judaica...</p>
+                                <p class="card-text mb-0">A Bíblia é uma coleção ou compilação de livros sagrados,
+                                    contendo as histórias, doutrinas, códigos e tradições que guiam os cristãos, com
+                                    base na tradição judaica...</p>
                             </div>
                             <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                 <div class="d-flex align-items-end justify-content-between">
@@ -467,15 +472,23 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script>
-       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-      </script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                700: {
+                    slidesPerView: 2,
+                },
+                900:{
+                    slidesPerView: 3,
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
