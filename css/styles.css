@@ -6482,6 +6482,7 @@ textarea.form-control-lg {
 
 .link-dark {
   color: #212529;
+  text-decoration: none;
 }
 .link-dark:hover, .link-dark:focus {
   color: #1a1e21;
