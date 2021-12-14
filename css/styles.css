@@ -11308,6 +11308,9 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
+.bg-featured-noticia{
+  min-height: 400px;
+}
 
 .media{
   text-decoration: none;
